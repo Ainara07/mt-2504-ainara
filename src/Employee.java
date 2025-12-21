@@ -1,13 +1,13 @@
-package org.example;
+
 
 public class Employee extends Human {
     private String position;
     private float salary;
 
     public static String companyName = "AITU";
-    public Employee (int age, String name, boolean isEighteen,
+    public Employee (int age, String name, boolean isEmployed,
                      String position, float salary ) {
-        super(age,name,isEighteen);
+        super(age,name,isEmployed);
         this.position = position;
         this.salary= salary;
     }

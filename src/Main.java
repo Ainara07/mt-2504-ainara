@@ -1,4 +1,3 @@
-package org.example;
 import java.util.Scanner;
 
 public class Main {
@@ -12,16 +11,27 @@ public class Main {
         System.out.print("Enter age: ");
         int age = scanner.nextInt();
 
-        System.out.print("Are you 18?ai (true/false): ");
-        boolean isEighteen = scanner.nextBoolean();
+        System.out.print("Are you employed? (true/false): ");
+        boolean isEmployed = scanner.nextBoolean();
 
-        Human human = new Human(age, name, isEighteen);
+        Human human = new Human(age, name, isEmployed);
+
+        human.setAge(23);
+        human.setName("Alisher");
+        human.setEmployed(false);
+
 
         Employee employee = new Employee(18, "Mansur", false,
-                "Analytic", 250000);
+                "Analyst", 250000);
+
+        employee.setPosition("Developer");
+        employee.setSalary(450000);
 
         Student student = new Student(68, "Alua", true,
                 "AITU", 3.2f);
+
+        student.setGpa(2.72f);
+        student.setUniversity("IITU");
 
 
         System.out.println(human.getInfo());

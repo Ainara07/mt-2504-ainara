@@ -1,14 +1,14 @@
-package org.example;
+
 
 public class Human {
     private int age;
     private String name;
-    private boolean isEighteen;
+    private boolean isEmployed;
 
-    public Human(int age, String name, boolean isEighteen){
+    public Human(int age, String name, boolean isEmployed){
         this.age = age;
         this.name = name;
-        this.isEighteen = isEighteen;
+        this.isEmployed = isEmployed;
     }
     public void introduce(){
         System.out.println("Hello, my name is " + name);
@@ -23,6 +23,6 @@ public class Human {
     public String getName(){ return name; }
     public void setName(String name) { this.name = name; }
 
-    public boolean isEighteen(){ return isEighteen; }
-    public void setEighteen(boolean eighteen) { isEighteen= eighteen; }
+    public boolean isEmployed(){ return isEmployed; }
+    public void setEmployed(boolean employed) { isEmployed= employed; }
 }

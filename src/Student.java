@@ -1,13 +1,13 @@
-package org.example;
+
 
 public class Student extends Human {
 
     private String university;
     private float gpa;
 
-    public Student(int age, String name, boolean isFemale,
+    public Student(int age, String name, boolean isEmployed,
                    String university, float gpa) {
-        super(age, name, isFemale);
+        super(age, name, isEmployed);
         this.university = university;
         this.gpa = gpa;
     }
