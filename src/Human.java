@@ -1,15 +1,17 @@
 
 
-public class Human {
-    private int age;
-    private String name;
-    private boolean isEmployed;
+public abstract class Human {
+    protected int age;
+    protected String name;
+    protected boolean isEmployed;
 
     public Human(int age, String name, boolean isEmployed){
         this.age = age;
         this.name = name;
         this.isEmployed = isEmployed;
     }
+    public abstract void showInfo();
+
     public void introduce(){
         System.out.println("Hello, my name is " + name);
     }
