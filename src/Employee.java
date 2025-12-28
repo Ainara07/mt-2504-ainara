@@ -1,6 +1,6 @@
 
 
-public class Employee extends Human implements IWorkable, IStudyable {
+public class Employee extends Human implements IWork, IStudy {
     private String position;
     private float salary;
 

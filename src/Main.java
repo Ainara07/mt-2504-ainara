@@ -33,7 +33,7 @@ import java.util.Scanner;
                         Human student2 = new Student(20, "Karakat", true, "AITU", 3.8f);
                         student2.showInfo();
 
-                        IStudyable student3 = new Student(23, "Asylzhan", true, "IITU", 3.6f);
+                        IStudy student3 = new Student(23, "Asylzhan", true, "IITU", 3.6f);
                         student3.study();
 
                         Employee employee1 = new Employee(24, "Alisa", true, "Engineering", 75000.0f);
@@ -44,10 +44,10 @@ import java.util.Scanner;
                         Human employee2 = new Employee(22, "Samat", true, "Marketing", 65000.0f);
                         employee2.showInfo();
 
-                        IWorkable employee3 = new Employee(25, "Diana", true ,"HR", 60000.0f);
+                        IWork employee3 = new Employee(25, "Diana", true ,"HR", 60000.0f);
                         employee3.work();
 
-                        IStudyable employee4 = new Employee(21, "Erlan", true, "Finance", 80000.0f);
+                        IStudy employee4 = new Employee(21, "Erlan", true, "Finance", 80000.0f);
                         employee4.study();
 
 

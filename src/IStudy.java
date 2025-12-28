@@ -1,6 +1,6 @@
 
 
-public interface IStudyable {
+public interface IStudy {
     void study();
     double calculateGPA();
 }

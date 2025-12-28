@@ -1,6 +1,6 @@
 
 
-public final class Student extends Human implements IStudyable {
+public final class Student extends Human implements IStudy {
 
     private String university;
     private float gpa;
